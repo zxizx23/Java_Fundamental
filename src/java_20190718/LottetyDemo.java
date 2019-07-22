@@ -14,12 +14,12 @@ public class LottetyDemo {
 			lotto[i] = temp;		  
 			for (int j = 0; j < i; j++) { 
 			  if (lotto[i] == lotto[j]) { 
-			  	i--; 
-			  	break; 
+				  i--;
+				  break;
 			  	} 
 			 }
 			 
-			//중복값제거 2
+			/*중복값제거 2
 			if (i == 0) {
 				lotto[i] = temp;
 			} else {
@@ -35,7 +35,7 @@ public class LottetyDemo {
 				} else {
 					i--;
 				}
-			}
+			}*/
 			
 
 		}
