@@ -30,7 +30,7 @@ public class Calendar {
 		return totalCount;
 		
 	}
-	public int getLastDay(int year,int month) {
+	private int getLastDay(int year,int month) {
 		int[] monthArray = {31,28,31,30,31,30,31,31,30,31,30,31};
 		if(isLeafYear(year)) {
 			monthArray[1] = 29;
