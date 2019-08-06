@@ -1,0 +1,44 @@
+식별자
+
+자료형
+
+리터럴
+
+형변환
+
+연산자
+
+우선순위
+
+제어문
+
+if
+
+switch-case
+올 수 있는 자료형 = byte,short,int,char,string
+break = 사용 할 수도 안할 수도( 실행문이 없는경우 사용 안함)
+default = 위치 상관없음(꼭 마지막 아니여도 됨)
+
+for
+
+while
+
+break
+-switch, 반복문 빠져 나갈 때
+-break lable은 inner 반복문에서 outter 반복문을 빠져 나갈 때 사용
+ ->이중 for문에서 바깥쪽 for문은 outter, 안에 for문이 inner
+
+continue
+-반복문 안에서 coutinue문을 만나면 수행을 중지하고
+ for문일 경우에는 증감,조건으로 이동
+ while문일 경우에는 조건으로 이동
+
+return
+-return문을 만나면 수행을 중지하고 호출한 곳으로 제어권을 넘겨줌
+
+Array
+-길이
+ -배열길이 : lenghth
+ -문자열길이 : lenghth()
+
+https://github.com/syh1011/Java_Fundamental_KIC.git
